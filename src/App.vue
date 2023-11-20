@@ -1,12 +1,20 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
+import Login from './views/Login.vue';
+import Landingpage from './views/landingpage.vue';
+
 </script>
 
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+  <!-- <section id="LandingPage">
+    <Landingpage />
+  </section> -->
+
+  <!-- <section id="login">
+    <Login/>
+  </section> -->
+
+
   <!-- <header>
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
@@ -21,5 +29,7 @@ import HelloWorld from './components/HelloWorld.vue'
   </header>
 
   <RouterView /> -->
+
+  <RouterView />
 </template>
 

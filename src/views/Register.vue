@@ -1,0 +1,54 @@
+<template>
+    <div>
+        <div
+            class="bg-slate-800 border border-slate-600 rounded-md p-8 shadow-lg backdrop-filter backdrop-blur-lg bg-opacity-30 relative transition-all duration-200">
+            <h1 class="text-4xl font-bold text-center mb-8">Register</h1>
+            <form>
+                <div class="relative my-4">
+                    <input type="text"
+                        class="block w-72 py-2.5 px-0 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-600 peer"
+                        placeholder=" " />
+                    <label
+                        class="absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your
+                        Name</label>
+                    <BiUser class="absolute top-4 right-4 text-slate-400" />
+                </div>
+                <div class="relative my-4">
+                    <input type="password"
+                        class="block w-72 py-2.5 px-0 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-600 peer"
+                        placeholder=" " />
+                    <label
+                        class="absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your
+                        Password</label>
+                    <AiOutlineUnlock class="absolute top-4 right-4 text-slate-400" />
+                </div>
+                <div class="relative my-4">
+                    <input type="password"
+                        class="block w-72 py-2.5 px-0 text-sm text-gray-900 bg-transparent border-0 border-b-2 border-gray-300 appearance-none dark:text-white dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:text-white focus:border-blue-600 peer"
+                        placeholder=" " />
+                    <label
+                        class="absolute text-sm text-white duration-300 transform -translate-y-6 scale-75 top-3 -z-10 origin-[0] peer-focus:left-0 peer-focus:text-blue-600 peer-focus:dark:text-blue-500 peer-placeholder-shown:scale-100 peer-placeholder-shown:translate-y-0 peer-focus:scale-75 peer-focus:-translate-y-6">Your
+                        Confirm Password</label>
+                    <AiOutlineUnlock class="absolute top-4 right-4 text-slate-400" />
+                </div>
+                <button
+                    class="w-full mb-4 text-[18px] mt-6 rounded-full bg-white text-emerald-800 hover:bg-emerald-600 hover:text-white py-2 transition-colors duration-300"
+                    type="submit">Register</button>
+                <div class="mt-2 items-center">
+                    <div class="my-4">
+                        <span>Already Register? <span class="text-blue-500"><router-link
+                                    to="/Login">Login</router-link></span></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</template>
+
+<script>
+
+</script>
+
+<style scoped>
+/* Add your styles here */
+</style>
