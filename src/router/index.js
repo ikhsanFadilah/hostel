@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Landingpage from '../views/Landingpage.vue'
 import AdminView from '../views/AdminDash.vue'
 import Payment from '../views/Payment.vue'
+import NewReserv from '../views/NewReserv.vue'
+import admin from '../views/layout.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,6 +30,18 @@ const router = createRouter({
       path: '/Payment',
       name: 'Payment',
       component: Payment
+    },
+        {
+      path: '/NewReserv',
+      name: 'NewReserv',
+      component: NewReserv
+    },
+      {
+      path: '/admin',
+      name: 'admin',
+      component: admin,
+     
+      
     },
   ]
 })

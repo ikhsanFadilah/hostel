@@ -1,8 +1,7 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import Login from './views/Login.vue';
-import Landingpage from './views/landingpage.vue';
-
+import NewReserv from './views/NewReserv.vue';
 </script>
 
 <template>
@@ -26,10 +25,9 @@ import Landingpage from './views/landingpage.vue';
         <RouterLink to="/about">About</RouterLink>
       </nav>
     </div>
-  </header>
-
-  <RouterView /> -->
+  </header> -->
 
   <RouterView />
+
 </template>
 
